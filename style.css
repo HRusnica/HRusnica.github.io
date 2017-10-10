@@ -1,0 +1,7 @@
+body{
+background-image: url("green_website_background.jpg") no-repeat center center fixed;
+}
+.mypicture{
+        max-width:50 px;
+        border-radius: 6 em;
+}
