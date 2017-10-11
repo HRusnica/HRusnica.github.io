@@ -1,7 +1,46 @@
-body{
-background-image: url("green_website_background.jpg") no-repeat center center fixed;
+html {
+        background-color: rgb(102, 117, 158);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
-.mypicture{
-        max-width:50 px;
-        border-radius: 6 em;
+
+h1, h2{
+        font-family: 'Give You Glory', cursive;
+        color: rgb(218, 226, 177);
+}
+p, #list{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5em;
+}
+h1{
+        font-size: 2.5em;
+}
+h2{
+        font-size: 1.5em;
+}
+.pic {
+        display: block;
+        width:300px;
+        border-radius: 20%;
+}
+
+.topImage{
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+}
+
+button{
+        background-color: green;
+        border: 1 em;
+        border-radius: .5em;
+        color: darkgreen;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 1em;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-around;
 }
