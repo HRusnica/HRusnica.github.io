@@ -1,15 +1,12 @@
 html {
         background-color: rgb(102, 117, 158);
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
 }
 
 h1, h2{
         font-family: 'Give You Glory', cursive;
         color: rgb(218, 226, 177);
 }
-p, #list{
+p, .list{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1.5em;
 }
@@ -18,6 +15,12 @@ h1{
 }
 h2{
         font-size: 1.5em;
+}
+
+.list{
+        background-color: rgb(102, 117, 158);
+        display: flex;
+        align-content: space-between;
 }
 .pic {
         display: block;
@@ -29,6 +32,7 @@ h2{
         display: flex;
         justify-content: center;
         align-content: flex-start;
+        z-index: -1;
 }
 
 button{
@@ -40,7 +44,6 @@ button{
         display: inline-block;
         font-size: 1em;
         display: flex;
-        align-content: center;
         justify-content: center;
         justify-content: space-around;
 }
